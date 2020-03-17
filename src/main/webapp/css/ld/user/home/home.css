@@ -1,0 +1,353 @@
+/* 导航栏样式 */
+header .header-logo {
+	left: 45%;
+}
+
+header .homeMenu {
+	margin-top: 15px;
+	margin-left: -20px;
+	display: inline-block;
+	width: 160px;
+	height: 30px;
+}
+
+header .homeMenu .span {
+	margin-left: .5em;
+}
+
+/* 一级菜单样式 */
+.main-nav {
+	position: fixed;
+	z-index: 200;
+	box-shadow: 2px 0 16px rgba(0, 0, 0, .2);
+	top: 0;
+	width: 0;
+}
+
+.main-nav .menuOne {
+	display: block;
+	height: 49px;
+	line-height: 50px;
+	background: #fafafa;
+	cursor: pointer;
+	font-size: 13px;
+	color: #0057bd;
+}
+
+.main-nav .menuOne i {
+	font-size: 15px;
+	font-style: normal;
+}
+
+.main-nav .menuOne i:nth-child(1) {
+	margin-left: 80px;
+}
+
+.main-nav .menuOne i:nth-child(2), .main-nav .menuOne i:nth-child(3) {
+	margin-left: -5px;
+}
+
+/* 二级菜单样式 */
+.nav-second .toolbar {
+	width: 1100px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.toolbar ul {
+	margin-left: -30px;
+}
+
+.toolbar li {
+	margin: 0 30px;
+}
+
+/* ******* 管理员界面样式  *******  */
+.content {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.title {
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.title-content{
+	width: 1100px; 
+	margin: 0 auto;
+}
+
+/********* 首页  标题样式*******/
+.title img {
+	width: 60px;
+	display: inline-block;
+	float: left;
+	margin-top: -20px;
+	border-radius: 50%;
+	border: 1px #888 dashed;
+	padding: 9px;
+	margin-right: 20px;
+}
+
+.title h5 {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.title h5 span {
+	color: #ff824d;
+}
+
+.title .btnchange {
+	float: right;
+	margin-top: -35px;
+}
+
+/********** 首页 个人信息样式 *****************/
+.detail {
+	padding: 30px 0;
+	position: relative;
+}
+
+.detail-head {
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.detail-operation {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.detail-head span {
+	font-size: 20px;
+	border-bottom: 2px #4a8bee solid;
+	padding: 5px 20px;
+}
+
+.detail-body:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.detail-body {
+	zoom: 1;
+	margin-left: 37%;
+}
+
+.detail-body dl dt {
+	float: left;
+	clear: left;
+	font-size: 17px;
+	width: 230px;
+	margin-bottom: 20px;
+	color: #555;
+	font-weight: normal;
+}
+
+.detail-body dl dd {
+	float: left;
+	font-size: 17px;
+	color: #2277da;
+}
+
+/* 修改密码模态框样式 */
+.modal-body {
+	padding: 15px 20px 0;
+}
+
+/*日历插件*/
+
+#full-clndr {
+	width: 100%;
+	max-width: 500px;
+	margin: 10px auto;
+	background-color: #CCC1;
+	float:left;
+}
+#full-clndr .clndr-controls {
+	color: white;
+	text-align: center;
+	background-color: #414141;
+	height:40px;
+	text-align: center;
+	padding-top: 10px;
+	/* 日历标题样式 */
+}
+#full-clndr .clndr-controls .clndr-previous-button {
+	float: left;
+	text-align: left;
+	margin-left: 50px;
+	height:20px;
+}
+#full-clndr .clndr-controls .clndr-next-button {
+	float: right;
+	text-align: right;
+	margin-right: 50px;
+}
+#full-clndr .clndr-controls .clndr-previous-button,
+#full-clndr .clndr-controls .clndr-next-button {
+	width: 30px;
+	cursor: pointer;
+}
+#full-clndr .clndr-controls .clndr-previous-button:hover,
+#full-clndr .clndr-controls .clndr-next-button:hover {
+	opacity: 0.5;
+}
+#full-clndr .clndr-grid {
+	width: 100%;
+}
+#full-clndr .clndr-grid .days-of-the-week {
+	width: 100%;
+	background-color: #0D70A6;
+	height:40px;
+	padding-top: 10px;
+	background: #2277da;
+}
+#full-clndr .clndr-grid .days-of-the-week .header-day {
+	width: 14.28%;
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+	color: white;
+	display: inline-block;    /* 日期头样式 */
+}
+#full-clndr .clndr-grid .days {
+	width: 100%;
+}
+#full-clndr .clndr-grid .days .day,
+#full-clndr .clndr-grid .days .empty {
+	width: 14.28%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #000;
+	background-color: #E6E6E6;
+	display: inline-block;
+	margin-bottom:2px;
+	/* 日期样式 */
+}
+#full-clndr .clndr-grid .days .day.event .day-number,
+#full-clndr .clndr-grid .days .empty.event .day-number {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #3883a3;
+}
+#full-clndr .clndr-grid .days .day.adjacent-month .day-number,
+#full-clndr .clndr-grid .days .empty.adjacent-month .day-number {
+	opacity: 0.3;
+}
+#full-clndr .clndr-grid .days .today {
+	background-color: #AAA;
+}
+#full-clndr .clndr-grid .days .past:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+#full-clndr .clndr-grid .days .today:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+.focusIn{
+	background-color:#0D70A6 !important;
+}
+
+#event{
+	float:left;
+	padding-top: 10px;
+	margin-bottom:50px;
+}
+
+#event .event-header1{
+	text-align: center;
+	background-color: #414141;
+	height:40px;
+	width:500px;
+}
+
+#event .event-header2{
+	background: #2277da;
+	height:40px;
+	text-align: center;
+	padding-top: 10px;
+	color:white;
+	margin-left:2px;
+}
+
+#event .event-content{
+	margin-left:2px;
+	height:250px;
+	overflow: auto;
+	width:498px;
+}
+
+#event .event-content .event-item{
+	background-color: #E6E6E6;
+	height:40px;
+	margin-bottom: 2px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	text-overflow : ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#event .event-content .event-item span:nth-child(1){
+	margin-right:8px;
+}
+
+#event .event-content .event-item .event-item-title{
+	text-overflow : ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#event .event-content .event-item:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+
+/*弹出框样式*/
+
+.shadow{display: none; width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 200; background: rgba(0,0,0,.3);}
+.addItemDiv{display: none; position: fixed; width: 60%; height: 500px; top: 50px; left: 20%; z-index: 400; background: #fff;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);}
+.addItemDiv .fac-title{height: 45px; line-height: 45px; padding: 0 20px; color: #000; background: #eee; font-size: 15px; border-bottom: 1px solid #444;}
+.addItemDiv .fac-title span{float: right; font-size: 24px; cursor: pointer;}
+.addItemDiv .fac-title span:hover{color: #666;}
+
+.fac-body{max-height: 360px; overflow-y: auto; padding-top: 30px; padding-left: 10%;}
+.fac-body .item:after{content: ""; display: block; clear: both;}
+.fac-body .item{zoom: 1;}
+.fac-body .span{width: 7%; font-weight: bold; float: left; clear: left; min-height: 50px;}
+.fac-body .item-content{float: left; width: 50%; margin-bottom: 20px;}
+.fac-body .item-content input{padding: 0 10px;}
+.fac-body .btn-item{width: 130px; height: 25px; border-radius: 0; line-height: 11px; border-color: #555; margin-right: 20px; margin-bottom: 5px;}
+.fac-body .btn-item:hover{border-color: #2277da; color: #2277da; background: #fff;}
+.addItemDiv .item-content .item-active{border: 1px solid #2277da; color: #fff; background: #2277da;}
+
+.fac-foot{background: #eee; position: absolute; height: 50px; width: 100%; bottom: 0; border-top: 1px solid #444;}
+.fac-foot .btn-submit{width: 100px; height: 30px; line-height: 17px; float: right; color: #222; border-color: #222; margin: 10px; border-radius: 0;}
+.fac-foot .btn-submit:hover{background: #fafafa;}
+
+#reminderTitle {
+	width:400px;
+}
+
+#reminderContent {
+	padding-left:10px;
+	border-color: #B1B2B3;
+	resize: none;
+	width:550px;
+	height:280px;
+}
+
+.highlightColor{
+	font-weight:bold;
+	color: #ff824d;
+}

@@ -1,0 +1,215 @@
+/*新建用户按钮位置*/
+.content .activities .new {
+	position: relative;
+	float: right;
+	margin: 15px 55px 15px 0;
+}
+
+.new .btn-edit {
+	margin-right: 20px;
+}
+
+/* 设置用户表格每列大小 */
+/*table tr th:nth-child(1), table tr th:nth-child(5), table tr th:nth-child(9)*/
+	/*{*/
+	/*width: 6%;*/
+/*}*/
+
+table tr th{
+	width:5%;
+}
+table tr th:nth-child(1) {
+	width:3%;
+}
+table tr th:nth-child(2), table tr th:nth-child(3),table tr th:nth-child(4), table tr th:nth-child(7), table tr th:nth-child(8){
+	width:6%;
+}
+
+table tr th:nth-child(6) {
+	width:7%;
+ }
+table tr th:nth-child(9) {
+	width: 3%
+}
+table tr th:nth-child(10) {
+	width: 12%
+}
+
+/**********添加用户 页面开始位置*********/
+.row {
+	margin-top: 30px;
+	margin-left: 200px;
+	width: 80%;
+}
+
+.row h4 {
+	border-bottom: 1px dashed #ddd;
+}
+
+.row {
+	padding: 0 20px;
+}
+
+.row .input-group-custom {
+	margin-left: 80px;
+}
+
+.row .input-group-custom .span {
+	line-height: 34px;
+	color: #000;
+}
+
+.row .input-group-custom .spanright {
+	float: left;
+	line-height: 34px;
+	color: red;
+}
+
+.row .input-group-custom .form-control {
+	width: 300px;
+}
+
+.form-control-red {
+	border: 1px solid red;
+}
+
+.row .input-group-custom .caret {
+	float: right;
+	margin-top: 8px;
+}
+
+.dropdownMenu ul {
+	position: absolute;
+	float: left;
+	width: 300px;
+	border: 1px #ccc solid;
+	border-radius: 3px;
+	background-color: #fff;
+	z-index: 100;
+}
+
+.dropdownMenu li {
+	height: 34px;
+	line-height: 34px;
+	text-indent: 12px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdownMenu li:hover {
+	background-color: #f4f4f4;
+}
+
+/* 操作字体样式  */
+.table .spanblue {
+	color: #008;
+	margin-right: 10px;
+}
+
+.table .spanblue:hover {
+	color: #008;
+	border-bottom: 1px solid;
+}
+
+.table .spanred {
+	color: #ad0040;
+}
+
+.table .spanred:hover {
+	color: #ad0040;
+	border-bottom: 1px solid;
+}
+
+.table .spangreen {
+	color: #007f48;
+}
+
+.table .spangreen:hover {
+	color: #007f48;
+	border-bottom: 1px solid;
+}
+
+/* 弹出框样式 */
+.dialog-resetPasswd-success, .dialog-deleteUser-success {
+	position: fixed;
+	left: 50%;
+	top: -20%;
+	margin-left: -150px;
+	margin-top: -50px;
+	width: 300px;
+	z-index: 100;
+	border: 1px solid #dadde0;
+	border-radius: 3px;
+}
+
+.dialog-main {
+	position: relative;
+	width: auto;
+	height: 100%;
+	background: #fff;
+}
+
+.dialog-title {
+	height: 35px;
+	position: relative;
+	background: #38ae67;
+}
+
+.dialog-title .close {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: #b9bfc5;
+	float: right;
+}
+
+.dialog-title .close i {
+	position: absolute;
+	font: normal 25px Tahoma;
+	color: #000;
+}
+
+.dialog-body {
+	height: 120px;
+	padding: 20px;
+	overflow: hidden;
+}
+/*.dialog-body span{display: inline-block; width: 25px; height: 25px;padding: 3px 1px 2px 5px; color: #35b558; border: 1px #35b558 solid; border-radius: 50%; }*/
+.dialog-body .logo-success {
+	display: inline-block;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	margin-left: 115px;
+	background: url("../../../img/success.svg");
+}
+
+.dialog-body h4 {
+	float: left;
+	margin-top: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+}
+
+.shadow{display: none; width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 200; background: rgba(0,0,0,.3);}
+.addItemDiv{display: none; position: fixed; width: 60%; height: 200px; top: 50px; left: 20%; z-index: 400; background: #fff;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);}
+.addItemDiv .fac-title{height: 45px; line-height: 45px; padding: 0 20px; color: #000; background: #eee; font-size: 15px; border-bottom: 1px solid #444;}
+.addItemDiv .fac-title span{float: right; font-size: 24px; cursor: pointer;}
+.addItemDiv .fac-title span:hover{color: #666;}
+
+.fac-body{max-height: 360px; overflow-y: auto; padding-top: 30px; padding-left: 10%;}
+.fac-body .item:after{content: ""; display: block; clear: both;}
+.fac-body .item{zoom: 1;}
+.fac-body .span{width: 7%; font-weight: bold; float: left; clear: left; min-height: 50px;}
+.fac-body .item-content{float: left; width: 50%; margin-bottom: 20px;}
+.fac-body .item-content input{padding: 0 10px;}
+.fac-body .btn-item{width: 130px; height: 25px; border-radius: 0; line-height: 11px; border-color: #555; margin-right: 20px; margin-bottom: 5px;}
+.fac-body .btn-item:hover{border-color: #2277da; color: #2277da; background: #fff;}
+.addItemDiv .item-content .item-active{border: 1px solid #2277da; color: #fff; background: #2277da;}
+
+.fac-foot{background: #eee; position: absolute; height: 50px; width: 100%; bottom: 0; border-top: 1px solid #444;}
+.fac-foot .btn-submit{width: 100px; height: 30px; line-height: 17px; float: right; color: #222; border-color: #222; margin: 10px; border-radius: 0;}
+.fac-foot .btn-submit:hover{background: #fafafa;}

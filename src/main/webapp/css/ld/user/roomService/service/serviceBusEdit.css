@@ -1,0 +1,9 @@
+#dateLi .span{width: 5em;}
+#roomNumLi .span{width: 6em;}
+#nameLi .span{width: 7em;}
+#othersLi .span{width: 7em;}
+#roomNumLi{margin-left: 5em;}
+#othersLi{margin-left: 5em;}
+
+table{margin-top: 1em;}
+.goback{display: block;float:true;}

@@ -1,0 +1,57 @@
+.nav-path:before,.nav-path:after { content:""; display:table;}
+.nav-path:after{clear:both;}
+.nav-path{*zoom:1;}
+.nav-path input{height: 24px; padding: 0 10px;}
+.chooseGoodsName{float: left;}
+
+/* 选择日期样式 */
+.calendarPart{font-size: 14px;}
+.calendarPart .span{float: left; margin-left: 2em;}
+
+
+/*  商品表格样式 */
+#shopListTbody .buy{color: #2277da;}
+#shopListTbody .sale{color: green;}
+#shopListTbody .use{color: #004ca5;}
+#shopListTbody .delete{color: red;}
+#shopListTbody .annualSale{color: #999;}
+#shopListTbody span{margin-left: 1em; cursor: pointer;}
+#shopListTbody span:hover, #shopListTbody a:hover{border-bottom-width: 1px; border-bottom-style: solid;}
+
+#shopListTbody td:nth-child(2), #shopListTbody td:nth-child(3){color: #ff5722;}
+#shopListTbody td:nth-child(7){color: #999;}
+.emptyText{text-align: center; line-height: 60px; border-bottom: 1px solid #aaa; color: #ff4d4d; font-size: 14px;}
+
+/* 弹出框样式 */
+.menuDiv{display: none; position: fixed; width: 60%; height: 160px; top: 20%; left: 20%; z-index: 400; background: #fff; 
+	 box-shadow: 3px 3px 5px rgba(0,0,0,0.3);}
+.menuDiv .menuTitle{height: 35px; line-height: 35px; padding: 0 20px; color: #000; background: #eee; font-size: 15px; border-bottom: 1px solid #444;}
+.menuDiv .menuTitle span{float: right; font-size: 24px; cursor: pointer;}
+.menuDiv .menuTitle span:hover{color: #666;}
+
+.menuBody{overflow-y: auto; padding: 40px; padding-bottom: 0;}
+.menuBody .roomNumber{color: #2277da;}
+.menuContent input{padding: 0 10px;}
+
+.btn-submit{width: 100px; height: 30px; line-height: 17px; float: right; color: #222; border-color: #222; margin: 10px; border-radius: 0;}
+.btn-submit:hover{background: #fafafa;}
+
+.goodsName{color: #2277da;}
+
+/* 新增商品 样式 */
+.body{margin-top: 7em;}
+.body-content li:first-child{margin-bottom: 1em;}
+.body-content li:nth-child(2) .span{width: 116px;}
+.firstGoback{float: right; margin-right: 14em; width: 120px;}
+
+#goodsNameWarning {
+	display: none;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 25px;
+	font-size: 12px;
+}
+
+.bottom-page {
+	margin:1em 2em 0.5em !important;
+}

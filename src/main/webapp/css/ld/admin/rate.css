@@ -1,0 +1,89 @@
+.content {
+	margin: 90px 10px 40px 170px;
+	padding: 30px 10px;
+}
+
+.content .content-body {
+	margin: auto;
+	width: 1000px;
+}
+
+.water, .power, .gas {
+	float: left;
+	width: 300px;
+	padding-bottom: 20px;
+}
+
+.water, .power {
+	border-right: 1px #ccc dashed;
+	margin-right: 20px;
+}
+
+.head, .body {
+	margin-bottom: 40px;
+}
+
+.head img {
+	width: 25px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 10px;
+}
+
+.head h3 {
+	font-family: "宋体";
+	font-weight: bold;
+	color: #454a51;
+}
+
+.body dl {
+	clear: both;
+	left: 40%;
+	position:relative;
+	margin-left: -88px;
+	font-size: 15px;
+	color: #333;
+}
+
+.body dl dt {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	color: #73777b;
+	font-weight: 700;
+}
+
+.body dl dd {
+	float: left;
+	margin-right: 10px;
+	color: #ff824d;
+}
+
+.body dl dd input {
+	text-align: center;
+	width: 75px;
+	border: 1px #bad1de solid;
+	padding: 0 3px;
+	border: inherit;
+	background-color: inherit;
+	color: blue;
+}
+
+.btnchange {
+	width: 80px;
+	position: absolute;
+	margin-left: -880px;
+	margin-top: -140px;
+}
+
+.btngoback {
+	width: 80px;
+	position: absolute;
+	margin-left: -110px;
+	margin-top: -140px;
+}
+
+#editButton a {
+	color: #fff;
+}
+

@@ -1,0 +1,17 @@
+.body{width: 1100px; margin: 2em auto;}
+.body-content{margin-left: 0;}
+
+#othersLi,#nameLi, #roomNumLi, #dateLi{display: inline-block;}
+#roomNumLi,#othersLi{margin-left: 5em;}
+#dateLi .span{width: 8em;}
+#roomIdWarning{margin-left: 700px;}
+#btn-search{margin-left: 40px; width: 150px; height: 30px; line-height: 16px; }
+
+table{width: 100%; margin: 2em auto;}
+td{border: 1px solid #ccc; line-height: 30px; width: 5%;}
+tbody tr:hover{background: #fff;}
+td input{margin: 0; width: 20px; min-height: 2em;}
+
+.monthTotalLi{display: none;}
+.goback{float: right;}
+#newBusComTable{display: none;}

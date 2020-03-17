@@ -1,0 +1,92 @@
+.body {
+	width: 800px;
+	margin: 2em auto;
+	margin-bottom: 9em;
+}
+
+.main-page{
+	position: static;
+}
+.body-content {
+	margin-left: 180px;
+	position: static;
+}
+
+.body-content li{
+	height: 3.5em;
+	font-size: 15px;
+}
+
+.body-content li:nth-child(1) .span{width: 116px;}
+.body-content li .span {
+	width: 8em;
+	display: inline-block;
+}
+
+.body-content li input {
+	width: 20em;
+	padding: .1em .8em;
+}
+
+.body-content li input[type="radio"] {
+	width: 50px;
+}
+
+.eventType {
+	margin-left: 8em;
+}
+
+.eventType input[type = "radio"] {
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.eventType .span{
+	margin-left: 10px;
+	float: left;
+	margin-top: 4px;
+}
+
+.red-right {
+	margin-left: 2em;
+}
+
+#roomIdWarning {
+	display: none;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 25px;
+	font-size: 12px;
+}
+
+.border-red {
+	border: 1px solid red;
+}
+
+.goback {
+	margin-top: 1.5em;
+}
+
+/* ******* 新增洗衣单收费样式 ***** */
+.btn-choose{width: 100px; height: 28px; line-height: 14px; border-color: #999;}
+.addItemDiv{height: 420px;}
+.fac-body{max-height: 324px;}
+
+#clothList{margin-left: 120px; margin-bottom: 2em; height: initial; margin-right: 200px;}
+.perCloth{margin-bottom: 1em; border-bottom: 1px dashed #aaa; padding: 3px 10px;}
+.perCloth .clothType{width: 160px; display: inline-block;}
+.perCloth .count{color: #2277da; font-weight: bold; font-size: 16px;}
+.perCloth .delete{float: right; color: red;}
+
+.clothText{font-weight: bold; color: #2277da; font-size: 16px;}
+
+#item-type a + span{display: none;}
+
+/* ***********新增餐厅、点餐人样式**************** */
+#resSort, #staffSort{position: relative;}
+#resInput, #staffInput{cursor: pointer;}
+ #resSort .span, #staffSort .span{width: 120px;} 
+.resMenu, .staffMenu{display: none; z-index: 100; position: absolute; top: 30px; left: 120px; background: #fafafa; border: 1px solid #aaa; box-shadow: 2px 2px 2px rgba(0,0,0,.3); margin-bottom: 5em;}
+.resMenu li, .staffMenu li{height: 30px; line-height: 30px; width: 300px; text-align: center; border-bottom: 1px solid #aaa; color: #2277da; cursor: pointer;}
+.resMenu li:hover, .staffMenu li:hover{background: #2277da; color: #fff;}
